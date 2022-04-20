@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+ */
+body {
+    background: rgb(238, 235, 221);
+    margin: 0;
+    padding: 0;
+}
+
+.prueba{
+    height: 100vh;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.barra {
+    position:static;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    width: 100%;
+    background: rgb(216, 182, 164);
+    z-index: 10;
+}
+
+.navegacion {
+    display: flex;
+    margin: 0 40px;
+    height: 100%;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 20%;  
+    box-shadow: 0px 0px 24px 6px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 0px 24px 6px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 24px 6px rgba(0,0,0,0.5);
+}
+
+.logo:hover{
+    filter: opacity(.5);
+}
+
+.botones {
+    margin: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: white;
+
+}
+
+.Seccion {
+   
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Presentacion { 
+    width: 100%;
+    height: 80%;
+    border-radius: 20px;
+    display: flex;
+    position: ;
+        /* box-shadow: 10px 10px 18px -3px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 10px 10px 18px -3px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 18px -3px rgba(0, 0, 0, 0.75); */
+    }
+
+.Empresa{
+        
+        margin: 5px 5px;
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        align-items: center;
+        width: 50%;
+        
+}
+
+.SN{
+    color:darksalmon;
+    font-weight: normal;
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform:uppercase;
+    text-decoration:aqua;
+}
+
+.SN-H4{
+    color: black;
+    font-size: 25px;
+}
+
+
+.Imagen{
+    margin: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 50%;
+    
+}
+
+.img-main{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+  
+
+}
+
+.Botones1{
+    font-family: 'Quicksand';
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color:darksalmon;
+    color: white;
+    border: none;
+    height: 45px;
+    width: 70%;
+    border-radius: 25px;
+
+}
+
+.Botones1:hover{
+    text-decoration:underline;
+}
+
+
+.imagen:hover {
+-webkit-transform: rotateY(180deg);
+-webkit-transform-style: preserve-3d;
+transform: rotateY(180deg);
+transform-style: preserve-3d;}
+
+.principal{
+    width: 100%;
+    height: 200vh;
+    background-color:rgb(238, 235, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.ventajas{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(238, 235, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+   
+}
+.titulo-ventajas{
+    color: darksalmon ;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+h3{
+    color: darksalmon ;
+}
+.iconos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.beneficio1{
+    justify-content: center;
+    text-align: center;
+    
+}
+.beneficio2{
+    justify-content: center;
+    text-align: center;
+}
+.beneficio3{
+    justify-content: center;
+    text-align: center;
+}
+
+/* ACA ARRANCA LA OTRA SECTION */
+
+.trabajo{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(238, 235, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo-trabajo{
+    color: darksalmon ;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.trabajo1{
+    justify-content: center;
+    text-align: center;
+    
+}
+.trabajo2{
+    justify-content: center;
+    text-align: center;
+}
+.trabajo3{
+    justify-content: center;
+    text-align: center;
+}
+
+/*  ACA TERMINA LA SECTION */
+i{
+    font-size: 100px;
+    opacity: 0.3;
+    
+}
+
+i:hover{
+    filter: opacity(.5);
+    cursor:pointer;
+}
+
+.clientes{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(238, 235, 221); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.obras{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+
+}
+
+.titulos{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+}
+
+.titulo-obras{
+    color: darksalmon ;
+    font-size: 50px;
+    font-weight: 200;
+}
+.casas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.img-casas{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.img-casas:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    text-align: center;
+
+}
+
+.h3-casas{
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+footer{
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(216, 182, 164); 
+    opacity: 0.8;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+.contactanos{
+    width: 50%;
+    height: 100%;
+}
+.titulo-contact{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tit-con{
+    font-size: 30px;
+    font-weight: 500px;
+}
+.redes{
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.img-redes{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 20px;
+}
+
+.img-redes:hover{
+    cursor: pointer;
+}
+
+.logo-contact{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-contact{
+    height: 200px;
+    width: 200px;
+   
+}
+
+
