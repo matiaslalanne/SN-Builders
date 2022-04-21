@@ -14,7 +14,7 @@ body {
 }
 
 .prueba{
-    height: 100vh;
+    height: 80vh;
     width: 100%;
 }
 
@@ -27,12 +27,12 @@ a:hover {
 }
 
 .barra {
-    position:static;
+    position:fixed;
     top: 0;
     left: 0;
     display: flex;
     justify-content: space-between;
-    height: 90px;
+    height: 15vh;
     width: 100%;
     background: rgb(216, 182, 164);
     z-index: 10;
@@ -72,10 +72,11 @@ a:hover {
 .Seccion {
    
     width: 100%;
-    height: 80%;
+    height: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
 
 }
 
@@ -84,7 +85,7 @@ a:hover {
     height: 80%;
     border-radius: 20px;
     display: flex;
-    position: ;
+    
         /* box-shadow: 10px 10px 18px -3px rgba(0, 0, 0, 0.75);
         -webkit-box-shadow: 10px 10px 18px -3px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 10px 10px 18px -3px rgba(0, 0, 0, 0.75); */
@@ -162,7 +163,7 @@ transform-style: preserve-3d;}
 
 .principal{
     width: 100%;
-    height: 200vh;
+    height: 160vh;
     background-color:rgb(238, 235, 221);
     display: flex;
     justify-content: center;
@@ -173,7 +174,7 @@ transform-style: preserve-3d;}
 
 .ventajas{
     width: 100%;
-    height: 100%;
+    height: 80vh;
     background-color:rgb(238, 235, 221);
     display: flex;
     justify-content: center;
@@ -227,7 +228,7 @@ h3{
 
 .trabajo{
     width: 100%;
-    height: 100%;
+    height: 80vh;
     background-color:rgb(238, 235, 221);
     display: flex;
     justify-content: center;
@@ -269,7 +270,7 @@ i:hover{
 
 .clientes{
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     background-color:rgb(238, 235, 221); 
     display: flex;
     justify-content: center;
@@ -332,26 +333,155 @@ i:hover{
     font-size: 30px;
 }
 
+
+.imagenes{
+    height: 80vh;
+    width: 100%;
+    background-color:rgb(238, 235, 221); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 50px;
+
+    
+}
+.titulo-imagenes{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.tit-portfolio{
+    color: darksalmon ;
+    font-size: 50px;
+    font-weight: 200;
+}
+.sliders-div{
+    height: 70%;
+    width: 70%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px; 
+ 
+}
+
+.slider{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+ 
+}
+
+.lista-slider{
+    padding: 0;
+    display: flex;
+    width: 700%;
+    animation: cambio 35s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+
+}
+
+.slider li{
+    list-style: none;
+    width: 100%;
+    height: 50%;
+   
+}
+
+img{
+ 
+    width: 100%; 
+    
+}
+
+.img-slide{
+    height: 350px;
+    width: 700px;
+    object-fit: cover;
+    border-radius: 20px;
+
+}
+
+@keyframes cambio {
+    0%{
+        margin-left: 0;
+    }
+    10%{
+        margin-left: 0;
+    }
+    15%{
+        margin-left: -100%;
+    }
+    25%{
+        margin-left: -100%;
+    }
+    30%{
+        margin-left: -200%;
+    }
+    40%{
+        margin-left: -200%;
+    }
+    45%{
+        margin-left: -300%;
+    }
+    55%{
+        margin-left: -300%;
+    }
+    65%{
+        margin-left: -400%;
+    }
+    70%{
+        margin-left: -400%;
+    }
+    75%{
+        margin-left: -500%;
+    }
+    85%{
+        margin-left: -500%;
+    }
+    }
+    90%{
+        margin-left: -600%;
+    }
+    100%{
+        margin-left: -600%;
+    }
+}
+
+
 footer{
     height: 50vh;
     width: 100%;
-    background-color: rgb(216, 182, 164); 
+    background-color: rgb(216, 182, 164);  
     opacity: 0.8;
     display: flex;
     justify-content:center;
     align-items: center;
+    flex-direction: row;
+
+    
     
 }
 .contactanos{
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: 30%;
+    background-color: brown;
 }
 .titulo-contact{
     width: 100%;
-    height: 50%;
+    height: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: blue;
 }
 
 .tit-con{
@@ -366,6 +496,7 @@ footer{
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
+
     
 }
 
@@ -385,6 +516,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: chartreuse;
 }
 
 .img-contact{
@@ -392,5 +524,4 @@ footer{
     width: 200px;
    
 }
-
 
