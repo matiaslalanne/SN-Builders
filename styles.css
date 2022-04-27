@@ -386,6 +386,7 @@ i:hover{
     animation: cambio 35s infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in;
+    margin: auto;
 
 }
 
@@ -414,47 +415,99 @@ img{
     0%{
         margin-left: 0;
     }
-    10%{
+    20%{
         margin-left: 0;
-    }
-    15%{
-        margin-left: -100%;
     }
     25%{
         margin-left: -100%;
     }
-    30%{
-        margin-left: -200%;
-    }
-    40%{
-        margin-left: -200%;
-    }
     45%{
-        margin-left: -300%;
+        margin-left: -100%;
     }
-    55%{
-        margin-left: -300%;
-    }
-    65%{
-        margin-left: -400%;
+    50%{
+        margin-left: -200%;
     }
     70%{
-        margin-left: -400%;
+        margin-left: -200%;
     }
     75%{
-        margin-left: -500%;
-    }
-    85%{
-        margin-left: -500%;
-    }
-    }
-    90%{
-        margin-left: -600%;
+        margin-left: -300%;
     }
     100%{
-        margin-left: -600%;
+        margin-left: -300%;
     }
+    
 }
+
+.login{
+    height: 85vh;
+    width: 100%;
+    background-color: darkgoldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.iniciar{
+    height: 100%;
+    width: 50%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.iniciar-box{
+    height: 75%;
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #DF6262;
+    border-radius: 100px;
+}
+.registrarse{
+    height: 100%;
+    width: 50%;
+    background-color:darkseagreen;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.registrarse-box{
+    height: 75%;
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #DF6262;
+    border-radius: 100px;
+}
+
+.boton-log{
+    border-radius: 20px;
+    font-size: ;
+ 
+
+}
+
+.boton-log:hover{
+    text-emphasis: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
 
 
 footer{
@@ -473,7 +526,7 @@ footer{
 .contactanos{
     width: 100%;
     height: 30%;
-    background-color: brown;
+/*     background-color: brown; */
 }
 .titulo-contact{
     width: 100%;
@@ -481,12 +534,13 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+  /*   background-color: blue; */
 }
 
 .tit-con{
     font-size: 30px;
     font-weight: 500px;
+    
 }
 .redes{
     width: 100%;
@@ -496,6 +550,7 @@ footer{
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
+    margin-top: 50px;
 
     
 }
@@ -516,7 +571,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: chartreuse;
+   /*  background-color: chartreuse; */
 }
 
 .img-contact{
