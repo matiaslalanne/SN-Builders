@@ -442,7 +442,7 @@ img{
 .login{
     height: 85vh;
     width: 100%;
-    background-color: darkgoldenrod;
+    background-color:rgb(238, 235, 221);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -453,7 +453,7 @@ img{
 .iniciar{
     height: 100%;
     width: 50%;
-    background-color: aquamarine;
+
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -474,7 +474,7 @@ img{
 .registrarse{
     height: 100%;
     width: 50%;
-    background-color:darkseagreen;
+
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -494,7 +494,9 @@ img{
 
 .boton-log{
     border-radius: 20px;
-    font-size: ;
+    border-color: white;
+
+
  
 
 }
@@ -502,10 +504,17 @@ img{
 .boton-log:hover{
     text-emphasis: 10px;
     cursor: pointer;
+    transform: scale(1.2);
 }
 
+.label-log{
+    color: white;
+    font-size: 20px;
+}
 
-
+.H3-log{
+    font-size: 30px;
+}
 
 
 
