@@ -147,12 +147,21 @@ a:hover {
     height: 45px;
     width: 70%;
     border-radius: 25px;
+    
 
 }
 
 .Botones1:hover{
     text-decoration:underline;
+    background-color: white;
+    color: darksalmon;
+    cursor: pointer;
 }
+
+.Botones1:focus{
+    outline: 3px solid white;
+}
+
 
 
 .imagen:hover {
@@ -516,7 +525,11 @@ img{
     font-size: 30px;
 }
 
-
+input{
+    border-radius: 5px;
+    font-size: 100%;
+    border: none;
+}
 
 
 footer{
@@ -580,7 +593,13 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
    /*  background-color: chartreuse; */
+}
+
+.logo-contact:hover{
+    filter: opacity(.5);
+ 
 }
 
 .img-contact{
@@ -589,3 +608,64 @@ footer{
    
 }
 
+/* Media Queries and responsive desing */
+
+@media screen and (max-width: 1220px) and (min-width: 1021px) {
+    .prueba,
+    .principal,
+    .clientes,
+    .imagenes,
+    .login,
+    footer{
+       /*  max-width: 1000px; */
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 1020px)and (min-width: 767px) {
+    .imagenes{
+    margin-top: 30px;
+    }
+    .lista-slider{
+        width: 700%
+    }
+    .img-slide{
+        width: 650px;
+    
+    }
+
+    .sliders-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+    
+
+   .lista-slider{
+    width: 800%
+    }
+
+   .img-slide{
+    width: 850px;
+    
+    }
+    .sliders-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    }
+    
+    }
+
+@media screen and (max-width: 320px) and (min-width: 100px){
+    
+    .img-main{
+        height: 50px;
+        width: 50px;
+    }
+}
